@@ -1,0 +1,37 @@
+{
+  "name": "webshop",
+  "version": "3.0.0",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "build_for_test": "vite build --mode test",
+    "build_for_devtest": "vite build --mode devtest",
+    "preview": "vite preview --port 4173",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "test": "vitest --dom",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@headlessui/vue": "1.7.2",
+    "@mdi/js": "7.1.96",
+    "vue": "3.2.45",
+    "vue-router": "4.1.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "0.5.3",
+    "@tailwindcss/line-clamp": "0.4.2",
+    "@vitejs/plugin-vue": "4.0.0",
+    "@vitest/coverage-c8": "0.22.1",
+    "@vitest/ui": "0.22.1",
+    "@vue/test-utils": "2.2.7",
+    "autoprefixer": "10.4.13",
+    "eslint": "8.32.0",
+    "eslint-plugin-vue": "9.9.0",
+    "happy-dom": "6.0.4",
+    "postcss": "8.4.21",
+    "postcss-import": "14.1.0",
+    "tailwindcss": "3.2.4",
+    "vite": "4.0.4",
+    "vitest": "0.22.1"
+  }
+}

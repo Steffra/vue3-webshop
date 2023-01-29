@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "allowJs": true,
+    "module": "esnext",
+    "baseUrl": ".",
+    "noUnusedLocals": false,
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"],
+  "vueCompilerOptions": {
+    "experimentalDisableTemplateSupport": true
+  },
+  "lib": [
+    "esnext",
+    "dom",
+    "dom.iterable",
+    "scripthost"
+  ]
+}
